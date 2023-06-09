@@ -1,0 +1,46 @@
+/*
+body {
+    max-width: 700px;
+    margin: auto;
+    background-image: url('magna-carta.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: flex;
+    justify-content: center
+    /*float: left;*/
+}
+
+nav li a {
+    display:block;
+    text-align:center;
+    color: black;
+    padding: 1px 20px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+.searchbar {
+  margin: auto;
+}
+
+
+#search {
+  display:flex;
+  justify-content: center
+}
+
